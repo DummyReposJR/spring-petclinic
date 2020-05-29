@@ -5,5 +5,9 @@ node {
 
     }
 
+    stage ('build'){
+        sh 'mvn package'
+    }
+
 
 }
